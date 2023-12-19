@@ -18,7 +18,7 @@ import Logo from '@/../public/assets/logos/CompanyLogo.png'
 
 const Navbar = () => {
   return (
-    <div className="sticky z-10 top-0 inset-x-0 backdrop-blur-xl bg-white/40 border-b border-gray-200">
+    <div className="sticky z-10 top-0 inset-x-0 backdrop-blur-xl bg-white/20 border-b border-gray-200">
       <header className="relative">
         <MaxWidthWrapper className='py-3'>
           <div className="flex items-center justify-between">

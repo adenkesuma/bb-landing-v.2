@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 import NavButtons from "./NavButtons"
 import TranslateButton from "./TranslateButton"
 import SolutionsDropdown from "./SolutionsDropdown"
+import Hero from "./Hero"
 
 export {
   LinkItems,
@@ -11,5 +12,6 @@ export {
   Navbar,
   NavButtons,
   TranslateButton,
-  SolutionsDropdown
+  SolutionsDropdown,
+  Hero
 }
