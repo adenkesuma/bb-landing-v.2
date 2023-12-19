@@ -26,17 +26,17 @@ const LinkItems = () => {
               <ChevronDown className="w-[18px] h-[18px]" />
             </p>
           </DropdownMenuTrigger>
-          <DropdownMenuContent className="w-64 mr-32 mt-1 rounded-lg shadow-none">
-            <DropdownMenuCheckboxItem>
+          <DropdownMenuContent className="mt-1 rounded-lg shadow-none">
+            <DropdownMenuCheckboxItem className="pl-2">
               Priority Updates Mobile App
             </DropdownMenuCheckboxItem>
-            <DropdownMenuCheckboxItem>
+            <DropdownMenuCheckboxItem className="pl-2">
               Release Notes Manager
             </DropdownMenuCheckboxItem>
-            <DropdownMenuCheckboxItem>
+            <DropdownMenuCheckboxItem className="pl-2">
               Consultancy Service
             </DropdownMenuCheckboxItem>
-            <DropdownMenuCheckboxItem>
+            <DropdownMenuCheckboxItem className="pl-2">
               Technical Writers
             </DropdownMenuCheckboxItem>
           </DropdownMenuContent>
