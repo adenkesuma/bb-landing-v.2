@@ -1,12 +1,20 @@
 import Link from 'next/link'
 import Image from 'next/image'
-
-import MaxWidthWrapper from './MaxWidthWrapper'
-import Logo from '@/../public/assets/logos/CompanyLogo.png'
-import LinkItems from './LinkItems'
-import NavButtons from './NavButtons'
 import { Menu } from 'lucide-react'
-import TranslateButton from './TranslateButton'
+
+import {
+  MaxWidthWrapper,
+  TranslateButton,
+  LinkItems,
+  NavButtons, 
+  SolutionsDropdown
+} from '.'
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+import Logo from '@/../public/assets/logos/CompanyLogo.png'
 
 const Navbar = () => {
   return (
@@ -29,7 +37,33 @@ const Navbar = () => {
             </div>
 
             <div className='lg:hidden flex items-center gap-4'>
-              <Menu className='w-8 h-8' />
+              <div>
+                <Sheet>
+                  <SheetTrigger asChild>
+                    <Menu className='w-8 h-8' />
+                  </SheetTrigger>
+                  <SheetContent className='p-8 flex flex-col justify-between'>
+                    <ul className='flex flex-col gap-6 mt-8'>
+                      <li>
+                        <Link href='/about' className="text-sm">
+                          About
+                        </Link>
+                      </li>
+                        <SolutionsDropdown />
+                      <li>
+                        <Link href='/blog' className="text-sm">Blog</Link>
+                      </li>
+                      <li>
+                        <Link href='/careers' className="text-sm">Careers</Link>
+                      </li>
+                      <li>
+                      </li>
+                    </ul>
+                    <NavButtons />
+                  </SheetContent>
+                </Sheet>
+              </div>
+
               <TranslateButton />
             </div>
 

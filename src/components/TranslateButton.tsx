@@ -20,7 +20,7 @@ const TranslateButton = () => {
           <Languages className="w-5 h-5 text-black/80" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56 mr-36 mt-1 shadow-none">
+      <DropdownMenuContent className="w-56 mr-2 mt-1 shadow-none">
         <DropdownMenuLabel>Language</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
