@@ -5,6 +5,8 @@ import NavButtons from "./NavButtons"
 import TranslateButton from "./TranslateButton"
 import SolutionsDropdown from "./SolutionsDropdown"
 import Hero from "./Hero"
+import ContinuesSection from "./ContinuesSection"
+import CardsSolution from "./CardsSolution"
 
 export {
   LinkItems,
@@ -13,5 +15,7 @@ export {
   NavButtons,
   TranslateButton,
   SolutionsDropdown,
-  Hero
+  Hero,
+  ContinuesSection,
+  CardsSolution
 }

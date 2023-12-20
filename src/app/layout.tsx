@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={cn('h-full font-sans antialiased bg-primary-foreground', inter.className)}>
         <main className="relative flex flex-col min-h-screen">
           <Navbar />
-          <div className="flex-grow flex-1 -mt-20">
+          <div className="flex-grow flex-1 -mt-20 overflow-hidden">
             {children}
           </div>
         </main>

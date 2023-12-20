@@ -5,7 +5,7 @@ import { MoveRight } from 'lucide-react'
 import HeroBanner from '@/../public/assets/images/Group.png'
 import { MaxWidthWrapper } from '.'
 import { Button } from './ui/button'
-import BlurGradient from '@/../public/assets/images/circle-gradient.png'
+import BlueGradient from '@/../public/assets/images/blue-gradient.png'
 
 const Hero = () => {
   return (
@@ -48,7 +48,7 @@ const Hero = () => {
 
       <div className='w-[1200px] h-[1200px] absolute -right-[800px] -top-60'>
         <Image 
-          src={BlurGradient}
+          src={BlueGradient}
           alt="image"
           className='w-full h-full'
         />
