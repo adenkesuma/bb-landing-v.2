@@ -4,6 +4,7 @@ import { MoveRight } from 'lucide-react'
 import { MaxWidthWrapper } from "."
 import { Button } from "./ui/button"
 import WhiteGradient from '@/../public/assets/images/white-gradient.png'
+import ValueIcon from '@/../public/assets/svg/value.svg'
 
 const ContinuesSection = () => {
   return (
@@ -33,11 +34,16 @@ const ContinuesSection = () => {
       </div>
 
       <div className='w-full'>
-        <h3 className='text-3xl text-primary font-black mb-3'>
+        <Image 
+          src={ValueIcon}
+          alt='value icon'
+          className='w-20 h-20 mb-4 mx-auto'
+        />
+        <h3 className='text-3xl text-primary font-black mb-3 text-center'>
           <span>Continuous Value-Adding</span><br />
           <span className='text-white'>Software Updates Is Possible Today</span>
         </h3>
-        <p className='text-sm text-gray-300 mb-8'>
+        <p className='text-sm text-gray-300 mb-8 text-center'>
           Are you someone who hates change? It is commonly known that the greatest threat to the devices space is its static stance to change. Despite this, the ever increasing digitisation means that staying ahead requires being adaptable.
         </p>
         <div className="grid grid-cols-3 gap-6">
@@ -48,32 +54,6 @@ const ContinuesSection = () => {
             <p className='font-normal text-gray-300 text-sm mt-2'>
               Deploy patches quickly for managing security vulnerabilities.
             </p>
-            <Image 
-              src={WhiteGradient}
-              alt='blur gradient'
-              className='absolute w-96 h-96 -top-60 -left-60'
-            />
-          </div>
-          <div className='relative overflow-hidden border border-gray-600 rounded-2xl p-8'>
-            <h4 className='text-white font-semibold text-base'>
-              Major Bugs
-            </h4> 
-            <p className='font-normal text-gray-300 text-sm mt-2'>
-              Fix known issues before other customers experience and report them.
-            </p>
-          </div>
-          <div className='relative overflow-hidden border border-gray-600 rounded-2xl p-8'>
-            <h4 className='text-white font-semibold text-base'>
-              Regulatory Requirements
-            </h4> 
-            <p className='font-normal text-gray-300 text-sm mt-2'>
-              Compliance driven feature updates.
-            </p>
-            <Image 
-              src={WhiteGradient}
-              alt='blur gradient'
-              className='absolute w-96 h-96 -bottom-60 -right-60'
-            />
           </div>
           <div className='relative overflow-hidden border border-gray-600 rounded-2xl p-8'>
             <h4 className='text-white font-semibold text-base'>
@@ -90,10 +70,26 @@ const ContinuesSection = () => {
             <p className='font-normal text-gray-300 text-sm mt-2'>
               Lower maintenance costs and increase ease of innovation
             </p>
+          </div>
+          <div className='relative overflow-hidden border border-gray-600 rounded-2xl p-8'>
+            <h4 className='text-white font-semibold text-base'>
+              Regulatory Requirements
+            </h4> 
+            <p className='font-normal text-gray-300 text-sm mt-2'>
+              Compliance driven feature updates.
+            </p>
+          </div>
+          <div className='relative col-span-2 overflow-hidden border border-gray-600 rounded-2xl p-8'>
+            <h4 className='text-white font-semibold text-base'>
+              Major Bugs
+            </h4> 
+            <p className='font-normal text-gray-300 text-sm mt-2'>
+              Fix known issues before other customers experience and report them.
+            </p>
             <Image 
               src={WhiteGradient}
               alt='blur gradient'
-              className='absolute w-96 h-96 -left-60 -top-60'
+              className='absolute w-96 h-96 -bottom-72'
             />
           </div>
         </div>

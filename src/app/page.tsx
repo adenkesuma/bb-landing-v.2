@@ -6,6 +6,7 @@ import {
   CardsSolution 
 } from "@/components"
 import SecondaryGradient from '@/../public/assets/images/secondary-gradient.png'
+import PurpleGradient from '@/../public/assets/images/purple-gradient.png'
 
 export default function Home() {
   return (
@@ -21,6 +22,11 @@ export default function Home() {
       </div>
       <div className="relative mt-40">
         <CardsSolution />
+        <Image 
+          src={PurpleGradient}
+          alt='secondary gradient'
+          className="w-[800px] h-[800px] absolute top-0 -right-[500px]"
+        />
       </div>
     </div>
   )
