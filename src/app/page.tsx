@@ -19,7 +19,7 @@ export default function Home() {
           className="w-[800px] h-[800px] absolute top-0 -left-96"
         />
       </div>
-      <div>
+      <div className="relative mt-40">
         <CardsSolution />
       </div>
     </div>
