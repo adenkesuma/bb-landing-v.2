@@ -49,8 +49,3 @@
   }
 }
 
-.bg-gradient {
-  background-image: url('../../public/assets/images/bg-gradient.jpg');
-  background-size: cover;
-  background-position: center;
-}

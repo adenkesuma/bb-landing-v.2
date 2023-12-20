@@ -16,11 +16,13 @@ const TranslateButton = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="px-3 bg-transparent">
-          <Languages className="w-5 h-5 text-white hover:text-black" />
-        </Button>
+        {/* <Button variant="outline" className="px-3 bg-transparent"> */}
+        <div className="p-3 bg-transparent">
+          <Languages className="w-5 h-5 text-white" />
+        </div>
+        {/* </Button> */}
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56 mr-2 mt-1 shadow-none bg-black/60 text-white backdrop-blur-md border-gray-600">
+      <DropdownMenuContent className="w-56 mr-2 mt-1 shadow-none bg-primary-foreground/60 text-white backdrop-blur-md border-gray-900">
         <DropdownMenuLabel>Language</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
