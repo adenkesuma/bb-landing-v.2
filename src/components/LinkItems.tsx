@@ -5,7 +5,7 @@ import { SolutionsDropdown } from "."
 
 const LinkItems = () => {
   return (
-    <ul className='flex items-center justify-center gap-6'>
+    <ul className='flex items-center justify-center gap-6 text-white'>
       <li>
         <Link href='/about' className="text-sm">
           About

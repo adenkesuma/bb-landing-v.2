@@ -18,7 +18,7 @@ import Logo from '@/../public/assets/logos/CompanyLogo.png'
 
 const Navbar = () => {
   return (
-    <div className="sticky z-10 top-0 inset-x-0 backdrop-blur-xl bg-white/20 border-b border-gray-200">
+    <nav className="sticky z-10 top-0 inset-x-0 backdrop-blur-xl bg-black/60 border-b border-gray-600">
       <header className="relative">
         <MaxWidthWrapper className='py-3'>
           <div className="flex items-center justify-between">
@@ -28,7 +28,7 @@ const Navbar = () => {
                 alt='logo'
                 className='w-10 h-10'
               />
-              <span className='font-bold text-black text-xl'>BetrBeta</span>
+              <span className='font-bold text-white text-xl'>BetrBeta</span>
             </Link>
 
             <div className='lg:flex lg:items-center gap-6 hidden'>
@@ -36,13 +36,13 @@ const Navbar = () => {
               <NavButtons />
             </div>
 
-            <div className='lg:hidden flex items-center gap-4'>
+            <div className='text-white lg:hidden flex items-center gap-4'>
               <div>
                 <Sheet>
                   <SheetTrigger asChild>
                     <Menu className='w-8 h-8' />
                   </SheetTrigger>
-                  <SheetContent className='p-8 flex flex-col justify-between'>
+                  <SheetContent className='p-8 flex flex-col justify-between bg-primary-foreground text-white'>
                     <ul className='flex flex-col gap-6 mt-8'>
                       <li>
                         <Link href='/about' className="text-sm">
@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
         </MaxWidthWrapper>
       </header>
-    </div>
+    </nav>
   )
 }
 

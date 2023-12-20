@@ -16,7 +16,7 @@ const SolutionsDropdown = () => {
           <ChevronDown className="w-[18px] h-[18px]" />
         </p>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="mt-1 rounded-lg shadow-none">
+      <DropdownMenuContent className="mt-1 rounded-lg shadow-none bg-black/60 text-white backdrop-blur-md border-gray-600">
         <DropdownMenuCheckboxItem className="pl-2">
           Priority Updates Mobile App
         </DropdownMenuCheckboxItem>
