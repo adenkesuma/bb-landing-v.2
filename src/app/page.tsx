@@ -5,7 +5,8 @@ import {
   ContinuesSection, 
   CardsSolution, 
   JourneySection,
-  WhyUs
+  WhyUs,
+  TabsSection
 } from "@/components"
 import SecondaryGradient from '@/../public/assets/images/secondary-gradient.png'
 import PurpleGradient from '@/../public/assets/images/purple-gradient.png'
@@ -32,9 +33,8 @@ export default function Home() {
         />
       </div>
       <JourneySection />
-      <div className="relative mt-40">
-        <WhyUs />
-      </div>
+      <WhyUs />
+      <TabsSection />
     </div>
   )
 }

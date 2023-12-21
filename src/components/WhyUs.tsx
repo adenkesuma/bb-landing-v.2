@@ -5,7 +5,7 @@ import WhiteGradient from '@/../public/assets/images/white-gradient.png'
 
 const WhyUs = () => {
   return (
-    <MaxWidthWrapper>
+    <MaxWidthWrapper className='mt-40'>
       <h2 className='text-3xl font-black text-white'>
         Why Us
       </h2>
