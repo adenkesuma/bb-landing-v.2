@@ -7,6 +7,8 @@ import SolutionsDropdown from "./SolutionsDropdown"
 import Hero from "./Hero"
 import ContinuesSection from "./ContinuesSection"
 import CardsSolution from "./CardsSolution"
+import JourneySection from "./JourneySection"
+import WhyUs from "./WhyUs"
 
 export {
   LinkItems,
@@ -17,5 +19,7 @@ export {
   SolutionsDropdown,
   Hero,
   ContinuesSection,
-  CardsSolution
+  CardsSolution,
+  JourneySection,
+  WhyUs
 }

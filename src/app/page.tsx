@@ -3,10 +3,13 @@ import Image from "next/image"
 import { 
   Hero, 
   ContinuesSection, 
-  CardsSolution 
+  CardsSolution, 
+  JourneySection,
+  WhyUs
 } from "@/components"
 import SecondaryGradient from '@/../public/assets/images/secondary-gradient.png'
 import PurpleGradient from '@/../public/assets/images/purple-gradient.png'
+import WhiteGradient from '@/../public/assets/images/white-gradient.png'
 
 export default function Home() {
   return (
@@ -27,6 +30,10 @@ export default function Home() {
           alt='secondary gradient'
           className="w-[800px] h-[800px] absolute top-0 -right-[500px]"
         />
+      </div>
+      <JourneySection />
+      <div className="relative mt-40">
+        <WhyUs />
       </div>
     </div>
   )

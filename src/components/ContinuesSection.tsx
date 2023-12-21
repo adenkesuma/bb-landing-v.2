@@ -12,9 +12,9 @@ const ContinuesSection = () => {
       <div className='mx-auto mb-40'>
         <div className='w-full rounded-2xl bg-gradient-to-b from-gray-600 via-transparent to-transparent p-[1px]'>
           <div className='relative overflow-hidden px-12 py-12 flex gap-10 rounded-[14px] h-full w-full items-center justify-center bg-primary-foreground'>
-            <h1 className='text-2xl font-black text-white'>
+            <h2 className='text-2xl font-black text-white'>
               Create Customer Centric Release Notes in minutes with Release Notes Manager
-            </h1>
+            </h2>
             <div className='flex items-center gap-4'>
               <Button>
                 Try Interactive Demo
@@ -39,10 +39,10 @@ const ContinuesSection = () => {
           alt='value icon'
           className='w-20 h-20 mb-4 mx-auto'
         />
-        <h3 className='text-3xl text-primary font-black mb-3 text-center'>
+        <h2 className='text-3xl text-primary font-black mb-3 text-center'>
           <span>Continuous Value-Adding</span><br />
           <span className='text-white'>Software Updates Is Possible Today</span>
-        </h3>
+        </h2>
         <p className='text-sm text-gray-300 mb-8 text-center'>
           Are you someone who hates change? It is commonly known that the greatest threat to the devices space is its static stance to change. Despite this, the ever increasing digitisation means that staying ahead requires being adaptable.
         </p>
