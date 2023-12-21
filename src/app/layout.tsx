@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import Navbar from '@/components/Navbar'
 import './globals.css'
+import { Footer } from '@/components'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default function RootLayout({
           <div className="flex-grow flex-1 -mt-20 overflow-hidden">
             {children}
           </div>
+          <Footer />
         </main>
       </body>
     </html>

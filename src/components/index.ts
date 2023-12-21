@@ -10,6 +10,7 @@ import CardsSolution from "./CardsSolution"
 import JourneySection from "./JourneySection"
 import WhyUs from "./WhyUs"
 import TabsSection from "./TabsSection"
+import Footer from "./Footer"
 
 export {
   LinkItems,
@@ -23,5 +24,6 @@ export {
   CardsSolution,
   JourneySection,
   WhyUs,
-  TabsSection
+  TabsSection,
+  Footer
 }
